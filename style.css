@@ -80,11 +80,15 @@ header .icons .fa-search {
 body > .info {
     padding: var(--padding);
 }
-
+.info .metadata {
+    padding: 12px;
+}
 .info .metadata .hashtags {
     display: flex;
     font-size: var(--font-large);
-    color: var(--blue-color)
+    color: var(--blue-color);
+    margin-top: 10px;
+    align-items: center;
 }
 
 .info .metadata .hashtags li {
